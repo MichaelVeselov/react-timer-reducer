@@ -1,0 +1,41 @@
+.btn {
+  background: transparent;
+  border: 2px solid transparent;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.05s ease-in-out;
+}
+
+.stop {
+  background-color: #e63946;
+  color: #fff;
+  box-shadow: 0 4px 0 darken(#e63946, 10%);
+  border: 1px solid darken(#e63946, 15%);
+}
+
+.start {
+  background-color: #2a9d8f;
+  color: #fff;
+  box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
+  border: 1px solid darken(#2a9d8f, 15%);
+}
+
+.reset {
+  background-color: #a020f0;
+  color: #fff;
+  box-shadow: 0 4px 0 darken(#a020f0, 10%);
+  border: 1px solid darken(#a020f0, 15%);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
